@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flea Market</title>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+        <!--jquery mobile css-->
+
+        <link rel="stylesheet" href=http://code.jquery.com/mobile/git/jquery.mobile-git.css>
+        <link rel="stylesheet" href="css/myStyle.css">
+        <!--jquery js-->
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <!--jquery mobile js-->
+        <script src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script>
+
+    </head>
+
+    <body>
+        <div data-role="page">
+
+            <div data-role="header" data-position="fixed">
+                <h1>FleaMarket</h1>
+            </div>
+            <div>
+            <label for="search"></label>
+            <input type="search" name="password" id="search" value="" placeholder="Search...">
+            </div>
+            <div class="ui-grid-a">
+                <div class="left-wrapper">
+                    <a href="#" data-role="button">Sort</a>
+                </div>
+                <div class="right-wrapper">
+                    <a href="#" data-role="button">Filter</a>
+                </div>
+            </div>
+            <div class="row">
+                <a href="ads.html">
+                <img src="pics/desk.jpg" class="col_1_2" alt="desk" height="150" width="150">
+                </a>
+                <p class="col_2_2">Nice desk with drawers</p>  
+                <p style="color: green">price 300</p>
+            </div><hr>
+            <div class="row">
+                <img src="pics/lamp.jpg" class="col_1_2" alt="desk" height="150" width="150">
+                <p class="col_2_2">Reading lamp</p>  
+                <p style="color: green">price 100</p>
+            </div><hr>   
+            <div class="row">
+                <img src="pics/book.jpg" class="col_1_2" alt="book" height="150" width="150">
+                <p class="col_2_2">Mobile Design and Development</p>  
+                <p style="color: green">price 150</p>
+            </div><hr>   
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="index.html" data-icon="home" class="ui-btn-active ui-state-persist">Home</a>
+                        </li>
+                        <li><a href="favorite.html" data-icon="heart">Favorite</a>
+                        </li>
+                        <li><a href="publish.html" data-icon="plus">Publish</a>
+                        </li>
+                        <li><a href="message.html" data-icon="mail">Message</a>
+                        </li>
+                        <li><a href="login.html" data-icon="user">Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /page -->
+    </body>
+
+</html>

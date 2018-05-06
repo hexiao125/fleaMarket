@@ -1,0 +1,45 @@
+
+.ui-field-contain {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ui-content {
+    padding: 2em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.col_1_2 {
+    float: left;
+    width: 30%;
+    padding: 1em;
+}
+
+.col_2_2 {
+    float: left;
+    width: 60%;
+}
+
+.row:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.center-wrapper{
+  text-align: center;
+}
+.center-wrapper * {
+  margin: 0 auto;
+}
+.left-wrapper{
+  float: left;
+  padding: .2em;
+  margin-left: 70px;
+}
+.right-wrapper{
+  float: right;
+  padding: .2em;
+  margin-right: 70px;
+}

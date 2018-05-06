@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flea Market</title>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+        <!--jquery mobile css-->
+
+        <link rel="stylesheet" href=http://code.jquery.com/mobile/git/jquery.mobile-git.css>
+        <link rel="stylesheet" href="css/myStyle.css">
+        <!--jquery js-->
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <!--jquery mobile js-->
+        <script src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script>
+    </head>
+
+
+    <body>
+
+        <div data-role="page">
+            <div data-role="header" data-position="fixed">
+                <h1>My Profile</h1>
+            </div>
+            
+            <div class="row">
+                <img src="pics/user1pic.png" class="col_1_2" style="height: 70px;width: 70px;float: left;">
+                <p class="col_2_2" style="font-size: 150%">User1</p>
+            </div><hr>
+
+            <div data-role="collapsible">
+                <h3>Show my published items</h3>
+                <img src="pics/desk.jpg" style="width: 60px;height: 60px; float: left;">
+                <p>Nice desk with drawers 300kr</p>
+                <br>
+                <img src="pics/lamp.jpg" style="width: 60px;height: 60px; float: left;">
+                <p>Reading lamp 100kr</p>
+            </div>
+
+            <br><br><br><br>
+
+            
+            <div data-role="content">
+                <a href="#" data-role="button">log out</a>
+            </div>
+
+
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="index.html" data-icon="home" class="ui-btn-active ui-state-persist">Home</a>
+                        </li>
+                        <li><a href="favorite.html" data-icon="heart">Favorite</a>
+                        </li>
+                        <li><a href="publish.html" data-icon="plus">Publish</a>
+                        </li>
+                        <li><a href="message.html" data-icon="mail">Message</a>
+                        </li>
+                        <li><a href="login.html" data-icon="user">Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

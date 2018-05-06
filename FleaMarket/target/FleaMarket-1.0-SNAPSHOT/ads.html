@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flea Market</title>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi" />
+        <!--jquery mobile css-->
+
+        <link rel="stylesheet" href=http://code.jquery.com/mobile/git/jquery.mobile-git.css>
+        <link rel="stylesheet" href="css/myStyle.css">
+        <!--jquery js-->
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <!--jquery mobile js-->
+        <script src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script>
+
+    </head>
+
+    <body>
+        <div data-role="page">
+
+            <div data-role="header" data-position="fixed">
+                <h1>FleaMarket</h1>
+            </div>
+            <div class="center-wrapper">
+                <img src="pics/desk.jpg"  alt="desk" height="240" width="300">
+            </div>
+            <div class="center-wrapper">
+                <p>Nice desk with drawers</p>
+                <p style="color: green">price 300</p>
+            </div><hr>  
+            <div class="ui-grid-a">
+                <div class="left-wrapper">
+                    <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-heart ui-btn-icon-notext">Favorite</a>
+                </div>
+                <div class="right-wrapper">
+                    <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-mail ui-btn-icon-notext ">Message</a>
+                </div>
+            </div><hr>
+            <div class="center-wrapper">
+                <p>A nice writing desk with drawers. Two years old, perfect condition.
+                    Length:	150 cm
+                    Width:	75 cm
+                    Height:	74 cm</p>
+            </div>  
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                       <li><a href="index.html" data-icon="home" class="ui-btn-active ui-state-persist">Home</a>
+                        </li>
+                        <li><a href="favorite.html" data-icon="heart">Favorite</a>
+                        </li>
+                        <li><a href="publish.html" data-icon="plus">Publish</a>
+                        </li>
+                        <li><a href="message.html" data-icon="mail">Message</a>
+                        </li>
+                        <li><a href="login.html" data-icon="user">Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /page -->
+    </body>
+
+</html>
